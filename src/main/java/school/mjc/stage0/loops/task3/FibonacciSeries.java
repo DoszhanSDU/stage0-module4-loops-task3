@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task3;
 
 public class FibonacciSeries {
     public void printFibonacci(int lastFibonacci) {
-        int first = 1;
+        int first = 0;
         int second = 1;
         if (lastFibonacci == 1) {
             System.out.println(first);
